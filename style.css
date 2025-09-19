@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 4rem;
+}
+
+#hero {
+    height: 100vh;
+    background-color: #0af3e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#hero span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#hero img {
+    height: 18rem;
+}
+
+#hero h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#portfolio {
+    background-color: white;
+}
+
+#portfolio span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#portfolio img {
+    height: auto;
+    width: 30rem;
+}
+
+#portfolio h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#about {
+    background-color: #0af3e7;
+    color: white;
+}
+
+#about span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#about h1,
+p {
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#about input {
+    width: 15rem;
+    border: 2px solid white;
+    color: white;
+}
+
+#about button{
+    margin: 1rem;
+    width: 12rem;
+    color: white;
+    font-size: 1rem;
+    background-color: #0af3e7;
+    padding: 1rem;
+    border-color: white;
+}
+
+#contact {
+    background-color: white;
+}
+
+#contact span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#contact h1 {
+    margin-top: 5rem;
+}
+
+#contact input {
+    margin: 1rem;
+    padding: 3rem;
+    background-color: white;
+    
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#contact textarea {
+    margin: 1rem;
+    padding: 3rem;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.fbtn {
+    padding: 1rem 2rem !important;
+    background-color: #08e9f0 !important;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+#location {
+    margin-top: 5rem;
+}
+
+#location h2 {
+    font-weight: 700;
+}
+
+@media screen and (max-width:767px){
+
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero h1{
+        font-size: 3rem;
+    }
+
+    #portfolio img{
+    width: 20rem;
+    padding: 1rem !important;
+    }
+
+    #contact input,textarea{
+        margin: 0 !important;
+    }
+}
